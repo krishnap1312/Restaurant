@@ -1,0 +1,68 @@
+/* AddMenuItem.css */
+.add-menu-item {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.add-menu-item h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-menu-item form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-menu-item label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.add-menu-item input,
+.add-menu-item textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-menu-item button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-menu-item button:hover {
+    background-color: #218838;
+}
+
+
+
+.add-menu-item button {
+    padding: 10px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-menu-item button:hover {
+    background-color: #45a049;
+}
+
+.add-menu-item button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}

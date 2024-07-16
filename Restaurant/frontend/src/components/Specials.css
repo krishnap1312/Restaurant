@@ -1,0 +1,52 @@
+/* src/components/Specials.css */
+
+.specials-section {
+    padding: 20px;
+    background-color: #f9f9f9; /* Optional: Add a background color */
+}
+
+.specials-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 items in one row */
+    gap: 20px; /* Space between grid items */
+}
+
+.special-item {
+    background: white; /* White background for each special item */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    overflow: hidden; /* Prevents image overflow */
+    transition: transform 0.3s; /* Smooth scaling effect */
+}
+
+.special-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.special-item img {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.special-item h3 {
+    font-size: 1.5em; /* Heading size */
+    margin: 10px; /* Margin around heading */
+}
+
+.special-item p {
+    margin: 10px; /* Margin around description */
+    color: #666; /* Description text color */
+}
+
+
+@media (max-width: 768px) {
+    .specials-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 items in one row for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .specials-container {
+        grid-template-columns: 1fr; /* 1 item in one row for mobile */
+    }
+}

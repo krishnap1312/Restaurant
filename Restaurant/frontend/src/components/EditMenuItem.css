@@ -1,0 +1,29 @@
+.edit-menu-item {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.edit-menu-item h2 {
+    margin-bottom: 20px;
+}
+
+.edit-menu-item div {
+    margin-bottom: 15px;
+}
+
+.edit-menu-item label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.edit-menu-item input,
+.edit-menu-item select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

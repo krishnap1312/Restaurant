@@ -1,0 +1,56 @@
+body {
+  background-color: #121212; /* Dark background */
+  color: #E0E0E0; /* Light font color */
+  font-family: Arial, sans-serif;
+}
+
+a {
+  color: #BB86FC; /* Light purple for links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Button Styles */
+button {
+  background-color: #BB86FC; /* Light purple for buttons */
+  color: #FFFFFF; /* White text */
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3700B3; /* Darker purple on hover */
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #1E1E1E; /* Darker navbar background */
+}
+
+.navbar a {
+  color: #E0E0E0; /* Light font color for navbar links */
+}
+
+/* Menu List */
+.menu-list {
+  background-color: #1E1E1E; /* Dark background for menu list */
+}
+
+/* Table Styles */
+.menu-list table {
+  border: 1px solid #444; /* Border color */
+}
+
+.menu-list th {
+  background-color: #333; /* Darker header */
+  color: #FFFFFF; /* White header text */
+}
+
+.menu-list tr:hover {
+  background-color: #222; /* Hover effect for rows */
+}

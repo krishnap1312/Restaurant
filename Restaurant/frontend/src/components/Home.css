@@ -1,0 +1,142 @@
+.home-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    margin-bottom: 40px;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.header-buttons .logo {
+    float: left;
+}
+
+.header-buttons .auth-buttons {
+    margin-left: auto;
+}
+
+.header-buttons img {
+    height: 50px; /* Adjust height as needed */
+    cursor: pointer;
+}
+
+.login-button,
+.register-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover,
+.register-button:hover {
+    background-color: #0056b3;
+}
+
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    color: #333;
+}
+
+.hero-text p {
+    font-size: 20px;
+    color: #666;
+    margin: 20px 0;
+}
+
+.browse-menu-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.browse-menu-button:hover {
+    background-color: #ff4500;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-section, .specials-section, .testimonials-section {
+    margin-bottom: 40px;
+}
+
+.about-section img, .specials-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.specials-container {
+    display: flex;
+    gap: 20px;
+}
+
+.special-item {
+    flex: 1;
+    text-align: center;
+}
+
+.special-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.testimonials-section .testimonial {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.header-buttons {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    gap: 10px; /* Space between buttons */
+    margin-bottom: 20px; /* Space below buttons */
+}
+
+.login-button, .register-button {
+    padding: 10px 15px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button:hover, .register-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
