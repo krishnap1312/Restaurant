@@ -1,8 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const bcrypt = require('bcryptjs');
-const User = require('../models/User');
-
+const User = require('../models/User'); // Adjust the path if your User model is in a different directory
 
 // Registration route
 router.post('/register', async (req, res) => {
@@ -18,6 +17,7 @@ router.post('/register', async (req, res) => {
         await newUser.save();
         res.status(201).json({ message: 'User registered successfully' });
     } catch (error) {
+        console.error(error); // Log the error for debugging
         res.status(500).json({ message: 'Server error' });
     }
 });
@@ -36,8 +36,12 @@ router.post('/login', async (req, res) => {
             return res.status(400).json({ success: false, message: 'Invalid credentials' });
         }
 
+        // Optionally, you can generate a JWT token here if required
+        // const token = jwt.sign({ userId: user._id }, JWT_SECRET, { expiresIn: '1h' });
+
         res.status(200).json({ success: true, message: 'Login successful' });
     } catch (error) {
+        console.error(error); // Log the error for debugging
         res.status(500).json({ success: false, message: 'Server error' });
     }
 });
