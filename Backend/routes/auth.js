@@ -4,7 +4,7 @@ const bcrypt = require('bcryptjs'); // Ensure bcryptjs is used
 const jwt = require('jsonwebtoken');
 
 const router = express.Router();
-const JWT_SECRET = process.env.JWT_SECRET || 'your_default_secret';
+const JWT_SECRET = process.env.JWT_SECRET;
 
 // Middleware to authenticate user
 const authenticateUser = (req, res, next) => {
